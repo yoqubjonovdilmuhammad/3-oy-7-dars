@@ -1,0 +1,117 @@
+@import "./fonts.css";
+@import url("./normaliz.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0c0d19;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  object-fit: cover;
+  display: flex;
+}
+
+.container {
+  width: 1440px;
+  height: 1024px;
+  margin: 100px auto;
+  background: linear-gradient(172.29deg, #09212c 15.72%, #043e49 68.5%);
+  position: relative;
+  border-radius: 10px;
+}
+.card__container {
+  padding-top: 193px;
+  padding-left: 64px;
+}
+.hero__img {
+  position: absolute;
+  left: 416px;
+  z-index: 1;
+}
+.card__top {
+  position: absolute;
+  z-index: 2;
+  width: 919px;
+  height: 526px;
+  background: linear-gradient(
+    124.42deg,
+    rgba(0, 0, 0, 0.36) 5.12%,
+    rgba(0, 0, 0, 0.0675) 102.99%
+  );
+  border-radius: 24px;
+  backdrop-filter: blur(4px);
+  padding: 40px 5.6rem;
+}
+.card__top h3 {
+  width: 748px;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+.h3__span {
+  color: #63e1e1;
+  word-spacing: 4px;
+}
+.card__top p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  width: 586px;
+  color: rgb(255, 255, 255, 0.8);
+  margin-bottom: 4rem;
+}
+.card__top a {
+  padding: 24px 48px;
+  color: #000000;
+  background-color: #63e1e1;
+  border-radius: 36px;
+  font-size: 24px;
+  transition: all 0.5s;
+}
+.card__top a:hover {
+  box-shadow: 0px 0px 20px 0px #63e1e140;
+}
+.card__bottom {
+  width: 1312px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 592px;
+  display: flex;
+  gap: 6rem;
+  padding: 24px 56px;
+  border-radius: 32px;
+  border: 1px solid rgb(255, 255, 255, 0.4);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  backdrop-filter: blur(4px);
+}
+.card__bottom--block {
+  width: 231px;
+}
+.card__bottom--block h2 {
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.card__bottom--block p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgb(255, 255, 255, 0.8);
+  width: 231px;
+}
